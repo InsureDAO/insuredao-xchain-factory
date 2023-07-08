@@ -9,7 +9,7 @@ interface OriginalTokenVaultV2:
     def deposit(_token: address, _amount: uint256, _mintChainId: uint64, _mintAccount: address, _nonce: uint64) -> Bytes[32]: nonpayable
 
 
-INSURE: constant(address) = 0xD533a949740bb3306d119CC777fa900bA034cd52
+INSURE: constant(address) = 0xd83AE04c9eD29d6D3E6Bf720C71bc7BeB424393E
 ORIGINAL_TOKEN_VALUT_V2: constant(address) = 0x7510792A3B1969F9307F3845CE88e39578f2bAE1
 
 mint_chain_id: public(immutable(uint64))
